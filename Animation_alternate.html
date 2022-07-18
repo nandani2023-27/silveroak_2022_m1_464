@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css"> 
+			div {
+			  width: 100px;
+			  height: 100px;
+			  background-color:red;
+			  position:relative;
+			  animation-name:Demo;
+			  animation-duration:4s;
+              animation-iteration-count: 2;
+		      animation-direction: alternate;
+			 }
+	
+			@keyframes Demo{
+				0%{background-color:brown; left:0px; top:0px;}
+				25%{background-color:black; left:200px; top:0px;}
+				50%{background-color:blue; left:200px; top:200px;}
+				75%{background-color:darkorange; left:0px; top:200px;}
+				100%{background-color:darkgreen; left:0px; top:0px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
